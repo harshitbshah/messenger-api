@@ -8,8 +8,8 @@ import com.harshit.javabrains.messenger.database.DatabaseClass;
 import com.harshit.javabrains.messenger.model.Profile;
 
 public class ProfileService {
-private Map<String, Profile> profiles = DatabaseClass.getProfiles();
-	
+	private Map<String, Profile> profiles = DatabaseClass.getProfiles();
+
 	public ProfileService() {
 		// TODO Auto-generated constructor stub
 		profiles.put("harshit", new Profile(1L, "harshit", "Harshit", "Shah"));

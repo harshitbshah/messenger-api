@@ -9,6 +9,9 @@ public class Profile {
 	String firstName;
 	String lastName;
 	
+	public Profile() {
+		
+	}
 	
 	public Profile(long id, String profileName, String firstName, String lastName) {
 		this.id = id;
